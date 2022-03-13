@@ -7,6 +7,6 @@
 ![xml]()
 |Name|Link|
 |----|----|
-|Actions|[Actions]()|
-|PR|[PR]()|
+|Actions|[Actions](https://github.com/Mujahedyousef/auth-api/actions)|
+|PR|[PR](https://github.com/Mujahedyousef/auth-api/pull/1)|
 |Heroku|[Heroku]()|
