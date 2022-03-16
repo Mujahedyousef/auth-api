@@ -9,7 +9,7 @@ const signin = require('./auth/Router/signin');
 const secret = require('./auth/Router/secret');
 const V1Router = require('./auth/Router/V1Router')
 const V2Router = require('./auth/Router/V2Router')
-const bcrypt = require('bcrypt');
+
 const bearer = require('./auth/middleware/bearer');
 const { user } = require('./auth/models');
 app.use(express.json());
@@ -18,7 +18,7 @@ app.use(signup);
 app.use(signin);
 app.use(secret);
 app.use("api/v1", V1Router)
-app.use("api/v2", V1Router)
+app.use("api/v2", V2Router)
 
 app.get('/', (req, res) => {
     res.status(200).send("Welcom in Home page..");
