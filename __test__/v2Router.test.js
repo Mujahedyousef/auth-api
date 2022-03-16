@@ -19,7 +19,7 @@ afterAll(async () => {
     await DB.drop();
 })
 Object.keys(Users).forEach(element => {
-    describe('testing sport model for v2 route', () => {
+    describe('testing clothes model for v2 route', () => {
 
         it('create new clothes', async () => {
             let Auth = await request.post('/signup').send(Users[element]);
