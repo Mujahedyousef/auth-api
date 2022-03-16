@@ -10,4 +10,4 @@
 |----|----|
 |Actions|[Actions](https://github.com/Mujahedyousef/auth-api/actions)|
 |PR|[PR](https://github.com/Mujahedyousef/auth-api/pull/3)|
-|Heroku|[Heroku]()|
+|Heroku|[Heroku](https://mujahed-auth-api.herokuapp.com/)|
